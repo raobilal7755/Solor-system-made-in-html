@@ -1,0 +1,239 @@
+body{
+	margin: 0 auto;
+	background-color: #d7d7d7;
+}
+       /*solar-system portion start*/
+#solar-system{
+    position: relative;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    background-color: ;
+    margin-top: 40px;
+} 
+     /*naptune portion start*/
+#naptune{
+	position: absolute;
+	height: 600px;
+	width: 600px;
+	border:5px solid white;
+	border-radius: 100%;
+	animation:circle 80s linear infinite;
+}
+#naptune:after{
+	   position: absolute;
+	   height: 25px;
+	   width: 25px;
+	   background-color: blue;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 250px;
+	   top: -13px;
+	   content: '';
+}
+
+          /*uranus portion start*/
+#uranus{
+	position: absolute;
+	height: 530px;
+	width: 530px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:35px;
+	left: 35px;
+	animation:circle 70s linear infinite;
+}
+#uranus:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: orange;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 250px;
+	   top: -13px;
+	   content: '';
+}
+        /*satran portion start*/
+#satran{
+	position: absolute;
+	height: 460px;
+	width: 460px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:70px;
+	left: 70px;
+	animation:circle 60s linear infinite;
+}
+#satran:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: blue;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 250px;
+	   top: -13px;
+	   content: '';
+}
+#satran:before{
+	   position: absolute;
+	   height: 10px;
+	   width: 43px;
+	   background-color: gray;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 238px;
+	   top: -7px;
+	   content: '';
+}
+     
+     /*jupiter portion start*/
+#jupiter{
+	position: absolute;
+	height: 360px;
+	width: 360px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:120px;
+	left: 120px;
+	animation:circle 50s linear infinite;
+}
+#jupiter:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: purple;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 250px;
+	   top: 3px;
+	   content: '';
+}
+
+       /*mars portion start*/
+#mars{
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:150px;
+	left: 150px;
+	animation:circle 40s linear infinite;
+}
+#mars:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: red;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 230px;
+	   top: 19px;
+	   content: '';
+}
+
+    /*earth portion start*/
+#earth{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:175px;
+	left: 175px;
+	animation:circle 30s linear infinite;
+}
+#earth:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: green;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 150px;
+	   top: -7px;
+	   content: '';
+}
+
+     /*venus portion start*/
+#venus{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:200px;
+	left: 200px;
+	animation:circle 20s linear infinite;
+}
+#venus:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: black;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 80px;
+	   top: -11px;
+	   content: '';
+}
+
+    /*mercury portion start*/
+#mercury{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border:5px solid white;
+	border-radius: 100%;
+	top:225px;
+	left: 225px;
+	animation:circle 10s linear infinite;
+}
+#mercury:after{
+	   position: absolute;
+	   height: 22px;
+	   width: 20px;
+	   background-color: gray;
+	   border-style: solid;
+	   border-width: 4px 1px 1px 1px;
+	   border-color: black;
+	   border-radius: 100%;
+	   left: 80px;
+	   top: -11px;
+	   content: '';
+}
+
+   /*sun portion start*/
+
+ #sun{
+ 	position: absolute;
+ 	height: 80px;
+ 	width: 80px;
+ 	background-color: gold;
+ 	border-radius: 100%;
+ 	box-shadow: gold;
+ 	top: 260px;
+ 	left: 260px;
+ }
+ @keyframes circle{
+ 	from{transform: rotate(0deg);}
+ 	to{transform: rotate(360deg);}
+ }
